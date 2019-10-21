@@ -1,1 +1,79 @@
 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ESHTALISHTU</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <div>
+        <div>
+          <div>
+            <a href="https://sigils.glitch.me/ALC/index.html"
+              ><h1 class="title">Eshtalishtu</h1></a
+            >
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div.sticky>
+            <img
+              id="myImage"
+              src="https://cdn.glitch.com/d534e4ae-d929-4aef-bc6d-39620f04109d%2FALC-ESH-WHI.png?v=1570203895545"
+            />
+            <script type="text/javascript">
+              let images = [
+                  "https://cdn.glitch.com/d534e4ae-d929-4aef-bc6d-39620f04109d%2FALC-ESH-WHI.png?v=1570203895545",
+                  "https://cdn.glitch.com/d534e4ae-d929-4aef-bc6d-39620f04109d%2FALC-ESH-RED.png?v=1570203896475",
+                  "https://cdn.glitch.com/d534e4ae-d929-4aef-bc6d-39620f04109d%2FALC-ESH-BLU.png?v=1570203895952",
+                  "https://cdn.glitch.com/d534e4ae-d929-4aef-bc6d-39620f04109d%2FALC-ESH-Flash6.gif?v=1570203862749",
+                  "https://cdn.glitch.com/d534e4ae-d929-4aef-bc6d-39620f04109d%2FALC-ESH-Flash5.gif?v=1570203862090",
+                  "https://cdn.glitch.com/d534e4ae-d929-4aef-bc6d-39620f04109d%2FALC-ESH-Flash4.gif?v=1570203861449",
+                  "https://cdn.glitch.com/d534e4ae-d929-4aef-bc6d-39620f04109d%2FALC-ESH-Flash3.gif?v=1570203861153",
+                  "https://cdn.glitch.com/d534e4ae-d929-4aef-bc6d-39620f04109d%2FALC-ESH-Flash2.gif?v=1570203861344"
+                ],
+                i = 0;
+              for (let j = images.length; j--; ) {
+                let img = new Image();
+                img.src = images[j];
+              }
+              document.getElementById("myImage").addEventListener(
+                "click",
+                function() {
+                  this.src = images[i >= images.length - 1 ? (i = 0) : ++i];
+                },
+                false
+              );
+            </script>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <h1>
+              <h4>
+                <a href="https://sigils.glitch.me/ANG/MET/index.html"
+                  >Next Demon</a
+                >
+              </h4>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
